@@ -25,7 +25,7 @@ def counting(t):
 
         old_text.string.replace_with(str(t))
 
-        with open("time.html", "wb") as f_output:
+        with open("index.html", "wb") as f_output:
             f_output.write(soup.prettify("utf-8"))
 
         time.sleep(1)
